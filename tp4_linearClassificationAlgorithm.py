@@ -24,7 +24,7 @@ if calculate_W_mtx:
     cond_vec = np.zeros(n_classes)
     
     '''
-    indexes are suffled until there is at least one specimen for each class
+    indexes are shuffled until there is at least one specimen for each class
     '''
     
     while not cond:
